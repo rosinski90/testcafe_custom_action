@@ -20,7 +20,7 @@ module.exports = {
     disablePageCaching: true,
     hostname: "localhost",
     customActions: {
-        async typeText(inputSelector: Selector, text: string) {
+        async typeCustomText(inputSelector: Selector, text: string) {
             await this.click(inputSelector);
             await this.typeText(inputSelector, text);
         }

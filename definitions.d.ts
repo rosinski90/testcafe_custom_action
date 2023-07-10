@@ -2,6 +2,6 @@
 import 'testcafe';
 declare global {
     interface CustomActions {
-        selectFromDropdown: (dropdownSelector: Selector) => TestControllerPromise
+        typeCustomText: (dropdownSelector: Selector, text: string) => TestControllerPromise
     }
 }

@@ -6,5 +6,5 @@ fixture('Basic finxture')
     });
 
 test('Custom action type', async (t) => { 
-    t.customActions.selectFromDropdown(Selector('#APjFqb'), 'test');
+    t.customActions.typeCustomText(Selector('#APjFqb'), 'test');
 })
